@@ -20,3 +20,26 @@ Other Ideas:
     - Oracle Virtual Box (on your local machine make a VM)
     - VMWare Workstation (on your local machine make a VM)
 - Check out Jupyter as a replacement to visual studio - https://jupyter.org/
+
+Work in Windows / Test in Linux
+1) Setup Windows (if you want to dev here)
+	- install python
+	- install git
+	- install github desktop
+	- install visual studio
+	- install visual studio python plugin
+	- setup visual studio to sync to a repo in SCM
+
+2) Setup my "test" Environment
+	- build a linux server
+	- sudo (yum or apt) install vim git python3-pip
+	- python3 -m pip install ansible
+	- use "git" to pull from the SCM repo you built in Visual Studio w/ Windows
+	- Try running your ansible code (test!)
+	- If it doesn't work...
+		- go back to windows, fix your code, commit
+		- go back to linux test server, git pull your code, and test again
+		- repeat if it is still broken!
+
+3) Ask someone within the enterprise how you might link your repo with a webhook to Jenkins, to help phaseout / elminate step 2
+	- After several hundred iterations of step 2, you'll want to do this!
