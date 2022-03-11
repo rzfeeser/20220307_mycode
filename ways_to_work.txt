@@ -1,0 +1,22 @@
+Minimalists Setup:
+- install linux:
+  # Debian / Ubuntu - sudo apt install vim git python3-pip
+  # RHEL / Centos - sudo yum install vim git python3-pip
+  # if you need ansible, follow up with (all distros) - python3 -m pip install ansible
+
+Windows Minalists Setup:
+- install python (everyone should agree to the version)
+- install notepad++
+- install GitHub Desktop
+
+Standard Setup:
+- install GitHub Desktop (https://desktop.github.com/)   # MacOS, Windows
+- install python (everyone should agree to the version)  # also consider remove old version of python when you upgrade
+- visual studio w/ python plugin > pycharm   # either will work as an IDE, but pycharm ONLY will ever do Python
+
+Other Ideas:
+- If you need a full OS to program in (an isolated space)...
+    - Oracle Cloud (2 vms free)
+    - Oracle Virtual Box (on your local machine make a VM)
+    - VMWare Workstation (on your local machine make a VM)
+- Check out Jupyter as a replacement to visual studio - https://jupyter.org/
